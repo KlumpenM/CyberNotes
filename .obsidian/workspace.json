@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c73904eebae14a6",
+            "id": "db11f6ec8c126b4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 219.5
   },
   "right": {
     "id": "8c784c9fe2786965",
@@ -164,9 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c73904eebae14a6",
+  "active": "db11f6ec8c126b4c",
   "lastOpenFiles": [
+    "Pen test Report/Report notes.md",
     "Guides/(G) Information Gathering.md",
+    "www.builtwith.com.md",
+    "Pen test Report/Report template.md",
+    "Pen test Report",
     "Basic stuff/Reconnaissance.md",
     "Guides",
     "Basic stuff/Covering Tracks.md",
