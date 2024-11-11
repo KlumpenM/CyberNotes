@@ -88,3 +88,22 @@ If we see information such as server information and server version, it would be
 
 # We leak info
 [We leak info](https://weleakinfo.io/) is a paid website (2$ for 24 hours), which returns information from database breaches and other leaks.
+This is where we are can search for the following:
+- Email
+- Username
+- Email By Password and Username by Password
+- Phone
+- Domain 
+- Email by hash
+This will return anything that matches the search, that has been in a breach. By using these credentials, we can use them for [[Credentials stuffing]] or [[Passwords spraying]].
+
+
+# Hunter.io
+This is also a website where we can look up, the website that we are testing. 
+This can give us patterns like:
+- Email pattern
+	- Which can be helpful for credentials stuffing and password spraying
+	- Or just plain brute-force attacking the website.
+With the email pattern, we can check the email pattern or account against an outlook server.
+**Caution:** This can cause the person to be locked out, if we just spray and pray over and over again.
+

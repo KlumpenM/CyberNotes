@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db11f6ec8c126b4c",
+            "id": "f415c691f2b5e761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guides/(G) Information Gathering.md",
+                "file": "Guides/(G) Scanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(G) Information Gathering"
-            }
-          },
-          {
-            "id": "5f594f0c39101fed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Network Reconnaissance Tools/DNSDumpster.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DNSDumpster"
+              "title": "(G) Scanning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,17 +139,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guides/(G) Information Gathering.md"
+                "file": "Guides/(G) Scanning.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of (G) Information Gathering"
+              "title": "Outline of (G) Scanning"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 383.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -178,10 +164,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f594f0c39101fed",
+  "active": "f415c691f2b5e761",
   "lastOpenFiles": [
-    "Tools/Network Reconnaissance Tools/Nmap.md",
+    "Web Server Fingerprinting.md",
+    "Guides/(G) Scanning.md",
+    "Passwords spraying.md",
+    "SSL Certification.md",
+    "Burp Suite.md",
+    "WAF - Web Application Firewall.md",
+    "WAF.md",
+    "README.md",
+    "Nikto.md",
+    "Guides/(G) Information Gathering.md",
+    "Pen test Report/Report notes.md",
+    "Credentials stuffing.md",
     "Tools/Network Reconnaissance Tools/DNSDumpster.md",
+    "Tools/Network Reconnaissance Tools/Nmap.md",
     "Tools/Web Vuln Scanner/Nikto.md",
     "Tools/Network Reconnaissance Tools",
     "Tools/Web Vuln Scanner/Untitled.md",
@@ -191,10 +189,8 @@
     "Tools/Network Vulnerability Scanner/OpenVAS.md",
     "Tools/Scanning/Nmap.md",
     "Tools/Network Vulnerability Scanner",
-    "Guides/(G) Information Gathering.md",
     "Tools/Scanning",
     "Tools",
-    "Pen test Report/Report notes.md",
     "www.builtwith.com.md",
     "Pen test Report/Report template.md",
     "Pen test Report",
@@ -203,12 +199,7 @@
     "Basic stuff/Covering Tracks.md",
     "Basic stuff/Maintaining Access.md",
     "Basic stuff/Gaining Access.md",
-    "Basic stuff/Scanning and Enumeration.md",
-    "README.md",
-    "Basic stuff/Start here - The five stages of ethical hacking.md",
-    "Welcome.md",
     "Basic stuff",
-    "Reconnisance",
-    "create a link.md"
+    "Reconnisance"
   ]
 }
