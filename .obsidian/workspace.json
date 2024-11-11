@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "(G) Information Gathering"
             }
+          },
+          {
+            "id": "5f594f0c39101fed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Network Reconnaissance Tools/DNSDumpster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DNSDumpster"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +178,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db11f6ec8c126b4c",
+  "active": "5f594f0c39101fed",
   "lastOpenFiles": [
-    "Pen test Report/Report notes.md",
+    "Tools/Network Reconnaissance Tools/Nmap.md",
+    "Tools/Network Reconnaissance Tools/DNSDumpster.md",
+    "Tools/Web Vuln Scanner/Nikto.md",
+    "Tools/Network Reconnaissance Tools",
+    "Tools/Web Vuln Scanner/Untitled.md",
+    "Tools/Web Vuln Scanner/WPScan.md",
+    "Tools/Network Vulnerability Scanner/Nessus.md",
+    "Tools/Web Vuln Scanner",
+    "Tools/Network Vulnerability Scanner/OpenVAS.md",
+    "Tools/Scanning/Nmap.md",
+    "Tools/Network Vulnerability Scanner",
     "Guides/(G) Information Gathering.md",
+    "Tools/Scanning",
+    "Tools",
+    "Pen test Report/Report notes.md",
     "www.builtwith.com.md",
     "Pen test Report/Report template.md",
     "Pen test Report",
