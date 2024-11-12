@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guides/(G) Scanning.md",
+                "file": "OWASP -  Juice shop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(G) Scanning"
+              "title": "OWASP -  Juice shop"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gaini",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,9 +144,19 @@
               "icon": "lucide-list",
               "title": "Outline of (G) Scanning"
             }
+          },
+          {
+            "id": "5b764bf008d545b8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,8 +176,12 @@
   },
   "active": "f415c691f2b5e761",
   "lastOpenFiles": [
-    "Web Server Fingerprinting.md",
+    "Basic stuff/Start here - The five stages of ethical hacking.md",
+    "OWASP -  Juice shop.md",
     "Guides/(G) Scanning.md",
+    "Pen test Report/Report notes.md",
+    "Pen test Report/Report template.md",
+    "Web Server Fingerprinting.md",
     "Passwords spraying.md",
     "SSL Certification.md",
     "Burp Suite.md",
@@ -176,7 +190,6 @@
     "README.md",
     "Nikto.md",
     "Guides/(G) Information Gathering.md",
-    "Pen test Report/Report notes.md",
     "Credentials stuffing.md",
     "Tools/Network Reconnaissance Tools/DNSDumpster.md",
     "Tools/Network Reconnaissance Tools/Nmap.md",
@@ -192,13 +205,10 @@
     "Tools/Scanning",
     "Tools",
     "www.builtwith.com.md",
-    "Pen test Report/Report template.md",
     "Pen test Report",
     "Basic stuff/Reconnaissance.md",
     "Guides",
     "Basic stuff/Covering Tracks.md",
-    "Basic stuff/Maintaining Access.md",
-    "Basic stuff/Gaining Access.md",
     "Basic stuff",
     "Reconnisance"
   ]

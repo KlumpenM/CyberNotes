@@ -55,3 +55,10 @@ Here we are looking at the following: (from the flags)
 	- This is a flag with a value between 0 and 5. These timing templates affect many variables, offering a simple way to adjust overall Nmap speed from very slow (`-T0`) to extremely aggressive ( `-T5`). A timing template may be combined with the more granular options describe below, and the most granular option takes precedence.
 In the output we get a lot of information, some of it is useful, while something might not be useful.
 Look at [[Nmap]] for more information.
+
+
+# Scanning with Burp Suite
+When we are active scanning, and we are using Burp suite. The right thing to do is to "manually" crawl the website our self. Since we are the only one knowing the "correct" scope of the assessment. Since Burp Suite has a tendency to crawl across the ocean of websites.
+We want to manually **map** the website, since there can be some information that our spider/crawler can miss a lot of information.
+- We wont to be the counterpart of the spider/crawler
+We also **need to be careful** when we are active scanning. Since that if we have access to an administrator account, and we are tinkering with the different API calls. When we are doing the same thing with Burp Suite, it's easy to delete a whole database, since the crawler just tries to hit all the different endpoints again (and multiple times).
