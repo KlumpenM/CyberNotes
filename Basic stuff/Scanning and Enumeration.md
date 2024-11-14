@@ -10,4 +10,6 @@ Tools like (but not limited to):
 We are just looking for information we can gather about the website. The more the better.
 The more information that we can get, the easier it is to gain access when it comes to exploiting web apps.
 
+For a guide in how to scan website and what to do look in: [[(G) Scanning]] and [[(G) Information Gathering]]
+
 The next step is [[Gaining Access]]
