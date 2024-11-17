@@ -38,6 +38,48 @@ What if we did something malicious like:
 username=<script>alert('1')</script>
 ```
 That should give us a alert on the page with the text "1".
-This is a **very basic** example, but it's just for understanding the concept of XSS: 
+This is a **very basic** example, but it's just for understanding the concept of XSS. 
+
+**Bypassing sanitization**
+When it comes to XSS, there is a lot of filtering on most of the websites in the wild. Therefore we need to be creative when it comes to trying to bypass the validation of a input, if we can bypass the sanitization.
+Lets say that we have a input where if we type: `<script>alert('xss')</script>` it display `lert('xss')</script>` on the page, here we can see that something is getting sanitized, but not all of the input is getting sanitized.
+Here we need to get creative in order to bypass, and this is where we are going for bitwise operators, to see if this XSS can be exploited, we can input:
+```
+<<a|ascript>alert('xss')</script>
+```
+If this gets through, it's because it starts to sanitize the first part, and gets to the expression: `a|a` where we are having the "OR", and since this is the gets validated to 1 -> True, and it executes the rest of the code, therefore resulting in a stored XSS.
+Here we just choses the "OR" operator, but we can use all the other bitwise operators.
 
 # Tools
+- Burp Suite (Manually or Intruder)
+- XSSer
+
+# Mitigations
+**Encoding:**
+When we are doing encoding to scripts, we can mitigate the execution of scripts, this means that when we are seeing this:
+```
+<script>
+```
+We should encode it such that:
+```
+< == &lt;
+```
+This means that every time we see a `<` it gets converted into `&lt;` when it hits the server, which is the escape sequence  of the symbol.
+
+**Filtering**:
+This is also a technique we can use to mitigate XSS, this is where, when we are seeing:
+```
+<script>
+```
+It gets converted into:
+```
+script
+```
+So we are just removing the "<" and ">", so it doesn't get executed on the server:
+
+**Validation**
+This is just a comparison against a list, so that every time we see a "script" tag, we eliminate these. So we are removing the tags. We are looking at a list, before it hits the server, and running it on the server.
+There are predefined lists, that we can use.
+
+**Sanitization**
+This is a combination of all the above techniques. 

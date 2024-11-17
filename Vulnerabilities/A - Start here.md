@@ -4,5 +4,6 @@ This is how the different files for vulnerabilities are going to be build up, or
 **What is it**
 **How do we do it**
 **Tools to use**
+**Mitigations (maybe)**
 
 All of the sections are changing, and can be switched out at any time or sections getting added.
