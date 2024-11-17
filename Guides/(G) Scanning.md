@@ -62,3 +62,8 @@ When we are active scanning, and we are using Burp suite. The right thing to do 
 We want to manually **map** the website, since there can be some information that our spider/crawler can miss a lot of information.
 - We wont to be the counterpart of the spider/crawler
 We also **need to be careful** when we are active scanning. Since that if we have access to an administrator account, and we are tinkering with the different API calls. When we are doing the same thing with Burp Suite, it's easy to delete a whole database, since the crawler just tries to hit all the different endpoints again (and multiple times).
+
+
+# Great things to get from the scanning
+When we are scanning with Burp Suite, the first main thing that we are looking for is the **robots.txt**.
+When we get the **robots.txt** file, we are immediately looking for the sites that are under the "disallow" section, to see if we can access them.

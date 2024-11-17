@@ -13,7 +13,7 @@ But when we are scanning a website it **doesn't pick up all the things**, it giv
 ## Manual work
 We want to make a lot of manual request to the website, submitting buttons, search queries.
 - Just getting a lot of parameters in the url, and the request.
-
+When getting the different sites, we are immediately looking at source code of the website, to see if the developer has messed something up, if there is some interesting things, or hardcoded credentials. 
 
 ## Extensions
 Extensions are available for both the free version and the paid version of Burp Suite, but most of the useful (doesn't say that the free plugins are useless) plugins are **only** for the paid version.

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7881117fc142c155",
+            "id": "db11f6ec8c126b4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic stuff/Red team and Pen test.md",
+                "file": "Vulnerabilities/Cross-site Scripting (XSS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Red team and Pen test"
+              "title": "Cross-site Scripting (XSS)"
             }
           }
         ]
@@ -52,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "gaini",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 219.5
   },
   "right": {
     "id": "8c784c9fe2786965",
@@ -139,28 +139,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guides/(G) Scanning.md"
+                "file": "Guides/(G) Information Gathering.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of (G) Scanning"
-            }
-          },
-          {
-            "id": "5b764bf008d545b8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of (G) Information Gathering"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -174,43 +163,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7881117fc142c155",
+  "active": "db11f6ec8c126b4c",
   "lastOpenFiles": [
-    "Guides/(G) Hacking Azure - Device Code Phishing.md",
-    "Basic stuff/Red team and Pen test.md",
+    "Pen test Report/Report template.md",
+    "Vulnerabilities/Cross-site Scripting (XSS).md",
+    "Vulnerabilities/A - Start here.md",
+    "Vulnerabilities/SQL Injection.md",
+    "Vulnerabilities/Input Validation.md",
+    "Burp Suite.md",
     "Guides/(G) Scanning.md",
-    "SSL Certification.md",
-    "WAF - Web Application Firewall.md",
+    "Pen test Report/Checklists.md",
+    "Pen test Report/Report notes.md",
+    "Pen test Report/Checklist and guides.md",
     "Web Server Fingerprinting.md",
     "WPScan.md",
-    "Guides/(G) Information Gathering.md",
-    "Toolbox",
-    "Cheat sheets/Commands.md",
-    "Pen test Report/Checklist and guides.md",
-    "Pen test Report/Report template.md",
-    "Pen test Report/Report notes.md",
-    "OWASP -  Juice shop.md",
-    "Cheat sheets",
-    "Burp Suite.md",
-    "Basic stuff/Covering Tracks.md",
-    "Basic stuff/Gaining Access.md",
-    "Basic stuff/Maintaining Access.md",
-    "Basic stuff/Reconnaissance.md",
-    "Basic stuff/Scanning and Enumeration.md",
-    "Basic stuff/Start here - The five stages of ethical hacking.md",
-    "Nikto.md",
-    "Nikto 1.md",
-    "Credentials stuffing.md",
+    "WAF - Web Application Firewall.md",
+    "SSL Certification.md",
     "Passwords spraying.md",
-    "WAF.md",
-    "README.md",
+    "OpenVAS.md",
+    "OWASP -  Juice shop.md",
+    "Nmap.md",
+    "Nikto.md",
+    "Nessus.md",
+    "Guides/(G) Hacking Azure - Device Code Phishing.md",
+    "DNSDumpster.md",
+    "Credentials stuffing.md",
+    "Cheat sheets/Commands.md",
+    "Cheat sheets",
+    "Basic stuff/Red team and Pen test.md",
+    "Guides/(G) Information Gathering.md",
+    "Vulnerabilities",
+    "Attacks",
     "Tools/Network Reconnaissance Tools",
     "Tools/Web Vuln Scanner",
     "Tools/Network Vulnerability Scanner",
     "Tools/Scanning",
     "Tools",
     "Pen test Report",
-    "Guides",
-    "Basic stuff"
+    "Guides"
   ]
 }
