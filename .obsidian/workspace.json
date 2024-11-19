@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7706da3a5b7da8c1",
+        "id": "092d04512f80352f",
         "type": "tabs",
         "children": [
           {
-            "id": "2dec129b8e9fe2df",
+            "id": "7881117fc142c155",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evilginx.md",
+                "file": "Basic stuff/Red team and Pen test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evilginx"
+              "title": "Red team and Pen test"
             }
           }
         ]
@@ -52,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gaini",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 211.5
   },
   "right": {
     "id": "8c784c9fe2786965",
@@ -139,17 +139,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guides/(G) Information Gathering.md"
+                "file": "Guides/(G) Scanning.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of (G) Information Gathering"
+              "title": "Outline of (G) Scanning"
+            }
+          },
+          {
+            "id": "5b764bf008d545b8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 383.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -163,37 +174,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2dec129b8e9fe2df",
+  "active": "7881117fc142c155",
   "lastOpenFiles": [
-    "Vulnerabilities/SQL Injection.md",
-    "Evilginx.md",
-    "Vulnerabilities/Denial-of-service.md",
     "Vulnerabilities/XML External Enity Injection (XEE).md",
-    "Vulnerabilities/Broken Access Control.md",
-    "Vulnerabilities/Cross-site Scripting (XSS).md",
-    "Vulnerabilities/A - Start here.md",
+    "Vulnerabilities/SQL Injection.md",
     "Vulnerabilities/Input Validation.md",
-    "HTTP Headers.md",
-    "Burp Suite.md",
-    "Nikto.md",
-    "Nessus.md",
-    "DNSDumpster.md",
-    "Credentials stuffing.md",
-    "Pen test Report/Report template.md",
-    "Guides/(G) Scanning.md",
+    "Vulnerabilities/Denial-of-service.md",
+    "Vulnerabilities/Cross-site Scripting (XSS).md",
+    "Vulnerabilities/Broken Access Control.md",
+    "Vulnerabilities/A - Start here.md",
+    "Vulnerabilities",
     "Pen test Report/Checklists.md",
-    "Pen test Report/Report notes.md",
-    "Pen test Report/Checklist and guides.md",
+    "HTTP Headers.md",
+    "Evilginx.md",
+    "Guides/(G) Hacking Azure - Device Code Phishing.md",
+    "Basic stuff/Red team and Pen test.md",
+    "Guides/(G) Scanning.md",
+    "SSL Certification.md",
+    "WAF - Web Application Firewall.md",
     "Web Server Fingerprinting.md",
     "WPScan.md",
-    "WAF - Web Application Firewall.md",
-    "SSL Certification.md",
-    "Passwords spraying.md",
-    "OpenVAS.md",
+    "Guides/(G) Information Gathering.md",
+    "Toolbox",
+    "Cheat sheets/Commands.md",
+    "Pen test Report/Checklist and guides.md",
+    "Pen test Report/Report template.md",
+    "Pen test Report/Report notes.md",
     "OWASP -  Juice shop.md",
     "Cheat sheets",
-    "Vulnerabilities",
-    "Attacks",
+    "Burp Suite.md",
+    "Basic stuff/Covering Tracks.md",
+    "Basic stuff/Gaining Access.md",
     "Tools/Network Reconnaissance Tools",
     "Tools/Web Vuln Scanner",
     "Tools/Network Vulnerability Scanner",
