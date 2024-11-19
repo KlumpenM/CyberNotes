@@ -8,9 +8,9 @@ More of less it getting access to things that we shouldn't be able to get access
 
 
 # How do we do it
-
+The most basic example, is that we can change values in the *session storage* of the browser, if we are allowed to change the values in their, and we are getting different pages, then this is an example of broken access control.
 
 # Tools
-
+- Burp Suite, with the Authorize plugin
 
 # Mitigation

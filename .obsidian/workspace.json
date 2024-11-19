@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "092d04512f80352f",
+        "id": "7706da3a5b7da8c1",
         "type": "tabs",
         "children": [
           {
-            "id": "db11f6ec8c126b4c",
+            "id": "2dec129b8e9fe2df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vulnerabilities/Cross-site Scripting (XSS).md",
+                "file": "Evilginx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-site Scripting (XSS)"
-            }
-          },
-          {
-            "id": "40fdd24cb25417f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vulnerabilities/Broken Access Control.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Broken Access Control"
+              "title": "Evilginx"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,12 +163,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40fdd24cb25417f0",
+  "active": "2dec129b8e9fe2df",
   "lastOpenFiles": [
-    "Vulnerabilities/Cross-site Scripting (XSS).md",
-    "Vulnerabilities/Broken Access Control.md",
-    "Vulnerabilities/A - Start here.md",
     "Vulnerabilities/SQL Injection.md",
+    "Evilginx.md",
+    "Vulnerabilities/Denial-of-service.md",
+    "Vulnerabilities/XML External Enity Injection (XEE).md",
+    "Vulnerabilities/Broken Access Control.md",
+    "Vulnerabilities/Cross-site Scripting (XSS).md",
+    "Vulnerabilities/A - Start here.md",
     "Vulnerabilities/Input Validation.md",
     "HTTP Headers.md",
     "Burp Suite.md",
@@ -203,9 +191,6 @@
     "Passwords spraying.md",
     "OpenVAS.md",
     "OWASP -  Juice shop.md",
-    "Nmap.md",
-    "Guides/(G) Hacking Azure - Device Code Phishing.md",
-    "Cheat sheets/Commands.md",
     "Cheat sheets",
     "Vulnerabilities",
     "Attacks",
