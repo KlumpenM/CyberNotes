@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7881117fc142c155",
+            "id": "38b2d66564eccba2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic stuff/Red team and Pen test.md",
+                "file": "Guides/(G) Hacking Azure - Device Code Phishing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Red team and Pen test"
+              "title": "(G) Hacking Azure - Device Code Phishing"
             }
           }
         ]
@@ -53,7 +53,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -174,8 +174,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7881117fc142c155",
+  "active": "38b2d66564eccba2",
   "lastOpenFiles": [
+    "Images/Hacking Azure Images/Pasted image 20241119170405.png",
+    "Images/Hacking Azure Images/Pasted image 20241119171403.png",
+    "Images/Hacking Azure Images/Pasted image 20241119174217.png",
+    "Guides/(G) Hacking Azure - Device Code Phishing.md",
+    "Dehashed.md",
+    "Images/Hacking Azure Images",
+    "Images",
+    "Burp Suite.md",
+    "Basic stuff/Red team and Pen test.md",
+    "Pen test Report/Report template.md",
+    "Pen test Report/Report notes.md",
+    "Pen test Report/Checklists.md",
+    "Pen test Report/Checklist and guides.md",
     "Vulnerabilities/XML External Enity Injection (XEE).md",
     "Vulnerabilities/SQL Injection.md",
     "Vulnerabilities/Input Validation.md",
@@ -184,11 +197,8 @@
     "Vulnerabilities/Broken Access Control.md",
     "Vulnerabilities/A - Start here.md",
     "Vulnerabilities",
-    "Pen test Report/Checklists.md",
     "HTTP Headers.md",
     "Evilginx.md",
-    "Guides/(G) Hacking Azure - Device Code Phishing.md",
-    "Basic stuff/Red team and Pen test.md",
     "Guides/(G) Scanning.md",
     "SSL Certification.md",
     "WAF - Web Application Firewall.md",
@@ -197,20 +207,12 @@
     "Guides/(G) Information Gathering.md",
     "Toolbox",
     "Cheat sheets/Commands.md",
-    "Pen test Report/Checklist and guides.md",
-    "Pen test Report/Report template.md",
-    "Pen test Report/Report notes.md",
     "OWASP -  Juice shop.md",
     "Cheat sheets",
-    "Burp Suite.md",
-    "Basic stuff/Covering Tracks.md",
-    "Basic stuff/Gaining Access.md",
     "Tools/Network Reconnaissance Tools",
     "Tools/Web Vuln Scanner",
     "Tools/Network Vulnerability Scanner",
     "Tools/Scanning",
-    "Tools",
-    "Pen test Report",
-    "Guides"
+    "Tools"
   ]
 }

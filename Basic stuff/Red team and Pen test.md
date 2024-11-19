@@ -14,3 +14,4 @@ Mostly in a pen testing, we **aren't** allowed to use our whole toolbox, with te
 Red teaming is more broad than pen testing, this is typically where we are allowed to use the **whole** toolbox, with all the techniques that we have learned such as *phishing*
 This is where we are simulating that we are a **APT** (Advance Persistent Threat), so what a adversary normally would do, to do harm to the company, but we are doing it for the good cause. 
 One of the best thing that we can use with red teaming, is *phishing*, since a company is only as strong as it's weakest personnel.
+This is also so that we can expose the client, to new threats or technologies, that we are going to use. So they get to recognize them and defend against them.
