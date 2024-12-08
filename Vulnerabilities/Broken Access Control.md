@@ -9,8 +9,18 @@ More of less it getting access to things that we shouldn't be able to get access
 
 # How do we do it
 The most basic example, is that we can change values in the *session storage* of the browser, if we are allowed to change the values in their, and we are getting different pages, then this is an example of broken access control.
+Some broken access control situations, can also be seen in the wild, what if, when creating a user we see that we are getting assigned an ID?
+- What should be the first thing to mangle then?
+	- Check if we can access other users (their IDs)
+What if we can see that, when creating a user, we get a request in [[Burp Suite]], that the server responds with a "isAdmin" flag?
+- What happens if we set that to **true** in the request?
+Broken Access control is just mainly about editing the request and response.
+- Se if we can **break access patterns**
+
 
 # Tools
 - Burp Suite, with the Authorize plugin
 
 # Mitigation
+Don't handle the user role and user rights in a single role like "admin" or something.
+- Handle it with permissions

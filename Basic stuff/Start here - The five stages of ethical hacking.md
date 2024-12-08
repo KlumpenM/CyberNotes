@@ -9,3 +9,5 @@ If you want a quick overview of either how I build reports (template) or just my
 - [[Checklist and guides]]
 - [[Report notes]]
 - [[Report template]]
+
+**Always have a checklist**

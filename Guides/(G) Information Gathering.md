@@ -106,4 +106,3 @@ This can give us patterns like:
 	- Or just plain brute-force attacking the website.
 With the email pattern, we can check the email pattern or account against an outlook server.
 **Caution:** This can cause the person to be locked out, if we just spray and pray over and over again.
-
