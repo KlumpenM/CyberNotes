@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.4 Pentesting Basics - Web Enumeration.md",
+                "file": "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.5 Pentesting Basics - Public Exploits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4 Pentesting Basics - Web Enumeration"
+              "title": "3.5 Pentesting Basics - Public Exploits"
             }
           }
         ],
@@ -191,8 +191,9 @@
   },
   "active": "a28e1bfc1ed0ac94",
   "lastOpenFiles": [
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.3 Pentesting Basics - Service Scanning.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.4 Pentesting Basics - Web Enumeration.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.5 Pentesting Basics - Public Exploits.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.3 Pentesting Basics - Service Scanning.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.2 Pentesting Basics - Basic Tools.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.1 Pentesting Basics  - Common Terms.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/2.3 Setup - Connecting using VPN.md",
@@ -221,7 +222,6 @@
     "Vulnerabilities/Broken Access Control.md",
     "Vulnerabilities/XML External Enity Injection (XEE).md",
     "Basic stuff/Start here - The five stages of ethical hacking.md",
-    "Basic stuff/Reconnaissance.md",
     "Images/Hacking Azure Images/Pasted image 20241119170405.png",
     "Images/Hacking Azure Images/Pasted image 20241119171403.png",
     "Images/Hacking Azure Images/Pasted image 20241119174217.png",
