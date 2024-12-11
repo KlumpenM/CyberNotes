@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.1 Attacking Your First Box - Nibbles (Enumeration).md",
+                "file": "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.2 What's Next - Knowledge Check.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.1 Attacking Your First Box - Nibbles (Enumeration)"
+              "title": "7.2 What's Next - Knowledge Check"
             }
           }
         ]
@@ -176,8 +176,18 @@
   },
   "active": "a28e1bfc1ed0ac94",
   "lastOpenFiles": [
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/4.2 Getting Started With HTB - Navigating HTB.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.3 Attacking Your First Box - Nibblies Initial Foothold.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.4 Attacking Your First Box - Nibbles Privilege Escalation.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.5 Attacking Your First Box - Nibbles Alternate User Method Metasploit.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/6.1 Problem Solving - Common Pitfalls.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/6.2 Problem Solving - Getting Help.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.1 What's Next - Next Steps.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.2 What's Next - Knowledge Check.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.2 Attacking Your First Box - Nibbles Web Footprinting.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.3 Attacking Your First Box - Nibbles Initial Foothold.md",
+    "Gobuster.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.1 Attacking Your First Box - Nibbles (Enumeration).md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/4.2 Getting Started With HTB - Navigating HTB.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/4.1 Getting Started With HTB - Starting out.md",
     "Hack The Box/Pro Labs",
     "Hack The Box/Fortresses",
@@ -196,21 +206,11 @@
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.1 Pentesting Basics  - Common Terms.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/2.2 Setup - Staying Organized.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/2.1 Setup - Getting Started with a Pentest Distro.md",
-    "Hack The Box/Start here.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/1. Introduction - Infosec Overview.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path",
     "Hack The Box/Machines",
     "Hack The Box/Modules",
-    "OWASP -  Juice shop.md",
     "Hack The Box/Modules",
     "Hack The Box",
-    "Passwords spraying.md",
-    "README.md",
-    "SSL Certification.md",
-    "Cheat sheets/Information gathering.md",
-    "Pen test Report/Checklist and guides.md",
-    "Pen test Report/Report notes.md",
-    "Pen test Report/Report template.md",
     "Images/Hacking Azure Images/Pasted image 20241119170405.png",
     "Images/Hacking Azure Images/Pasted image 20241119171403.png",
     "Images/Hacking Azure Images/Pasted image 20241119174217.png",
