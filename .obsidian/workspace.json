@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.2 What's Next - Knowledge Check.md",
+                "file": "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/2.4 Host Enumeration -Service Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.2 What's Next - Knowledge Check"
+              "title": "2.4 Host Enumeration -Service Enumeration"
             }
           }
         ]
@@ -176,13 +176,21 @@
   },
   "active": "a28e1bfc1ed0ac94",
   "lastOpenFiles": [
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/2.3 Host Enumeration - Saving the Results.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/2.4 Host Enumeration -Service Enumeration.md",
+    "Nmap.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/2.2 Host Enumeration - Host and Port Scanning.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/2.1 Host Enumeration - Host Discovery.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/1.1 Introduction - Enumeration.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path/1.2 Introduction - Introduction to Nmap.md",
+    "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.2 What's Next - Knowledge Check.md",
+    "Hack The Box/Modules/Network Enumeration with nmap - Penetration Tester Path",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.3 Attacking Your First Box - Nibblies Initial Foothold.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.4 Attacking Your First Box - Nibbles Privilege Escalation.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.5 Attacking Your First Box - Nibbles Alternate User Method Metasploit.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/6.1 Problem Solving - Common Pitfalls.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/6.2 Problem Solving - Getting Help.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.1 What's Next - Next Steps.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/7.2 What's Next - Knowledge Check.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.2 Attacking Your First Box - Nibbles Web Footprinting.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/5.3 Attacking Your First Box - Nibbles Initial Foothold.md",
     "Gobuster.md",
@@ -199,13 +207,6 @@
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.6 Pentesting Basics - Types of Shells.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.5 Pentesting Basics - Public Exploits.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.6 Pentesting Basics - Type of Shells.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.6 Pentesting Basics - Types of shells.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.4 Pentesting Basics - Web Enumeration.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.3 Pentesting Basics - Service Scanning.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.2 Pentesting Basics - Basic Tools.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/3.1 Pentesting Basics  - Common Terms.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/2.2 Setup - Staying Organized.md",
-    "Hack The Box/Modules/Getting Started - Penetration Tester Path/2.1 Setup - Getting Started with a Pentest Distro.md",
     "Hack The Box/Modules/Getting Started - Penetration Tester Path",
     "Hack The Box/Machines",
     "Hack The Box/Modules",
@@ -213,7 +214,6 @@
     "Hack The Box",
     "Images/Hacking Azure Images/Pasted image 20241119170405.png",
     "Images/Hacking Azure Images/Pasted image 20241119171403.png",
-    "Images/Hacking Azure Images/Pasted image 20241119174217.png",
-    "Images/Hacking Azure Images"
+    "Images/Hacking Azure Images/Pasted image 20241119174217.png"
   ]
 }
