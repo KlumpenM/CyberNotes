@@ -21,7 +21,7 @@ It mostly just tells us if some of the back lying structure is vulnerable.
 
 
 # Nmap (SSL)
-That that (if we were lucky) Nikto will have given us the [[SSL certification]]. But what if we want to look at the cyphers that the website/server is using.
+That that (if we were lucky) Nikto will have given us the [[SSL Certification]]. But what if we want to look at the cyphers that the website/server is using.
 This is what we can use Nmap for (and much more look here: [[Nmap]])
 We are running the command:
 ```
