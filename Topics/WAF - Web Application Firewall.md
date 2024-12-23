@@ -90,4 +90,81 @@ AWS WAF is a managed WAF service that integrated with AWS services to protect ap
 3) **Logging and Monitoring**:
 	- Logs are stored in Amazon S3 or streamed to CloudWatch for analysis.
 	- Real-time metrics provide insights into blocked requests and potential threats.
-	
+
+# WAF BYPASS
+Before digging into how we are going to bypass the Web Application Firewall of a web app, we first need to know why it's "bypassable".
+### Why are web application firewalls susceptible to bypasses?
+They can't just block every request or even every malicious activity, this is mainly because of the complexity of some web traffic. 
+**First** just considering the usual formats like:
+- .txt (Text)
+- .json (JavaScript Object Notation)
+- .xml (Extensible Markup Language)
+- Multi-part forms
+Where WAFs needs to handle all these consistently. 
+We can of cause try to attack this handling of things, by obfuscating our payloads in many different ways to make it almost impossible to account for account for every possibility. If the WAF is to wide, we tend to get a lot of false positives, and if it's to narrow, it's easy to bypass.
+**Next consider** the performance of the WAF, it needs to inspect every bite of every request, and it's computationally expensive. Therefore many WAFS attempt to optimize their performance by limiting the size or depth of inspections (this can be leveraged later).
+**The last thing to consider** before moving on is *inconsistencies in how different technologies process data*, a bit like the old *multiple bit SQL Injection*, since applications and databases interpret input differently, and we can use that difference to evade WAF, some WAFs might decode and interpret our traffic differently to the target application
+
+### First Technique
+This is a relatively simple technique, since this relies on the concept of "obfuscation". We can always just encode, double encode, add whitespace, split keywords, etc. to try to bypass WAF with obfuscation. We want to take out payload, and think about the following:
+- Is it being blocked?
+- If it's being block:
+	- Why is it being block?
+	- What is happening to the payload
+- What part (if any) is being blocked.
+	- Try to just manipulate and obfuscate that specific part.
+Another alternative could be using **fuzzing**, but that's another talk.
+
+**Step 1**:
+A simple payload (this shouldn't go through), to test is the site is bypassable, when it comes to WAF and [[Cross-site Scripting (XSS)]] is:
+```html
+<img src=x onerror=prompt()>
+```
+If this doesn't go through, we can take it up a notch.
+
+**Step 2**:
+We can try to submit the same payload again, if it doesn't go through, we can check the **network requests** tab, to see if we are getting any form for error messages, or try to intercept the response for an error message.
+Let us follow our previously mentioned methodology.
+- Why was this blocked? 
+- What is happening to our payload?
+When working with the previous payload, we start by breaking it down, and see if we are still getting detected.
+Modified (does this get detected)
+```html
+img src=x onerror=prompt()
+```
+Move on and modify the payload, so that we can **classify the part that's being blocked**.
+A neat and handy way is to create a list and then **fuzz** that list, to see if any of them are getting through.
+Some common WAFs have a built in detection for **combination of words** so, where *src* and *onerror* is common on that list, here we can use other attributes:
+- oNError
+- mouseover
+- onmouseover
+- etc.
+And see if this is going through
+
+### Second Technique
+By default a lot of WAFs don't check payloads over a specific size, meaning that we can just add a lot of characters in the suffix or prefix of our payload to get over that size. Some of the default sizes of the WAFs are:
+- 8 kb <- 10.000 characters
+- 16 kb <- 20.000 characters
+- 32 kb <- 40.000 characters
+- etc <- Multiple the previous character amount by 2
+To test for 8kb, we need at least **10.000** characters added on our payload. So our payload becomes (shortened for reading purpose).
+```html
+<a*10000 img scr=x onerror=prompt()>
+```
+There are python scripts for this (or create your own for learning purpose) and there is burp suite plugins to automate this.
+
+### Third Technique
+This is where we are taking advantage of inconsistent interpretation of data (previously mentioned). This is where we are looking back at the multi bite SQL Injection which is a rare edge case.
+This is where we are using both the application and the WAF, where we are using the application to turn something that the **WAF thinks is benign** and the application is going to change our payload to execute.
+This technique involves a lot of testing, meaning that it's trial and error.
+**Steps**:
+- We first start with some input that the application accepts and isn't malicious (e.g. `testing input`)
+- We then start to build on that selected input, to see what the filtering looks like (e.g. `testing input<>!@#$£€&/""()^`)
+- From the input that we typed, to the input that's processed on the server, there should be a difference, and this is the behaviour that we are going to exploit.
+	- Lets say that `""` (quotes) gets stripped by the application, this is a exploit that we can use.
+	- We can use the quotes to **split up our payload**, so that it executes on the other side of the WAF.
+	- So we have quotes inside the keywords of our payload e.g.:
+	```html
+		<im"g sr"c=x onerro"r=promp"t()>
+	```
+	- From this, we can get Cross-Site Scripting.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/OSI Model.md",
+                "file": "Topics/WAF - Web Application Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI Model"
+              "title": "WAF - Web Application Firewall"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "a28e1bfc1ed0ac94",
   "lastOpenFiles": [
+    "Topics/OSI Model.md",
     "Topics/SSL Certification.md",
     "Topics/Untitled.md",
     "Topics/Domain Name Systems (DNS).md",
@@ -184,7 +185,6 @@
     "Topics/Web Server Fingerprinting.md",
     "Vulnerabilities/File Inclusion Attacks.md",
     "Vulnerabilities/Cross-Site Request Forgery (CSRF).md",
-    "Topics/OSI Model.md",
     "Random stuff (Just for fun)/Funny commands.md",
     "Random stuff (Just for fun)",
     "Topics/Credentials stuffing.md",
